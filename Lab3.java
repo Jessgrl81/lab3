@@ -11,7 +11,8 @@ public class Lab3 {
       long endTime = System.nanoTime();
       // * Calculate elapsedTime here
       long elapsedTime = endTime - startTime;
-  
+      
+      System.out.println("Best Case Elapsed Time: " + elapsedTime + " nanoseconds");
       
       if (index >= 0)
         System.out.println("best-case input matched at index " + index);
